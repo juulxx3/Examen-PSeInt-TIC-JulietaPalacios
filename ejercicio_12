@@ -1,0 +1,16 @@
+Algoritmo Ej_12
+Algoritmo Ej_12
+	Definir num,numaleatorio Como Entero;
+	Escribir "su numero es un numero";
+	num = Aleatorio(1, 100);
+	Leer num;
+	Mientras num <> numaleatorio Hacer
+		si num < numaleatorio Entonces
+			Escribir "su numero es mayor";
+		SiNo
+			si num > numaleatorio Entonces
+				Escribir " su numero es Menor";
+			FinSi
+		FinSi
+		
+	FinMientras	
